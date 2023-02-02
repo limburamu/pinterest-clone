@@ -1,0 +1,63 @@
+.header {
+    background-color: aqua;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+
+.pinterst {
+    color: red;
+    align-items: center;
+}
+
+
+.icons {
+    height: 400px;
+    color: red;
+    align-items: center;
+    display: flex;
+    margin-left: 70%;
+}
+
+.notifications {
+    color: red;
+}
+
+.searchWrapper {
+    display: flex;
+}
+
+.searchBarWrapper {
+    background-color: aquamarine;
+    display: flex;
+    height: 48px;
+    width: 100%;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+from {
+    display: flex;
+    flex: 1;
+}
+
+form > input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+form > button  {
+    display: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
