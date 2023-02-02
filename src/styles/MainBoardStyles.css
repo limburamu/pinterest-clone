@@ -1,0 +1,14 @@
+.container {
+    /* display: flex; */
+    column-gap: 60px;
+    column-count: 5;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1260px;
+    background-color: white;
+}
+
+/* img {
+    cursor: zoom-in;
+} */
+

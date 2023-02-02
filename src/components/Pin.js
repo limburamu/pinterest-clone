@@ -46,12 +46,9 @@ function Pin(props) {
                     </div>
                 </div>
                 <div className='pin_Image'>
-                    This is pin
-                    <img src={props.img.imgUrl} alt={props.altText} />
+                    <img src={props.url} alt={props.altText} />
                 </div>
             </div>
-            {/* This is pin
-            <img src={props.imgUrl} alt='pinImage' /> */}
         </div>
     )
 }

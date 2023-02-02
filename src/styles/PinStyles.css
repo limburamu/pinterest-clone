@@ -1,10 +1,11 @@
 .card {
     width: 252px;
-    height: 512px;
+    height: 100%;
     position: relative;
     overflow: hidden;
+    cursor: zoom-in;
 
-    background-color: green;
+    background-color: white;
 }
 
 .pinTitle {
@@ -63,7 +64,7 @@
     align-items: center;
     flex-shrink: 0;
 
-    background-color: #f0f0f0;
+    background-color: white;
     cursor: pointer;
 }
 
@@ -96,7 +97,7 @@
 
     font-size: 16px;
     font-weight: 700;
-    background-color: #f0f0f0;
+    background-color: white;
     cursor: pointer;
 }
 
@@ -116,4 +117,12 @@
 /* .pin_Image img {
     max-height: 100%;
 } */
+
+
+img {
+    display: flex;
+    width: 100%;
+    cursor: zoom-in;
+    border-radius: 16px;
+}
 
