@@ -1,22 +1,26 @@
 import React from 'react'
 import '../styles/HeaderStyles.css';
-import PinterestIcon from "@material-ui/icons/Pinterest";
-import TextsmsIcon from "@material-ui/icons/Textsms";
-import NotificationsIcon from "@material-ui/icons/Notifications";
-import FaceIcon from "@material-ui/icons/Face";
-import SearchIcon from "@material-ui/icons/Search";
+// import PinterestIcon from "@material-ui/icons/Pinterest";
+// import TextsmsIcon from "@material-ui/icons/Textsms";
+// import NotificationsIcon from "@material-ui/icons/Notifications";
+// import FaceIcon from "@material-ui/icons/Face";
+// import SearchIcon from "@material-ui/icons/Search";
+
+import { Link } from 'react-router-dom';
 
 
 function Header() {
   return (
     <div className='header'>
-      <div className='pinterst'>
+      {/* <div className='pinterst'>
         <PinterestIcon />
-      </div>
+      </div> */}
       <div>
-        <a href='/'>Home</a>
+        {/* <a href='/'>Home</a> */}
+        <Link to="/">Home</Link>
+        <Link to="/profile">Profile</Link>
       </div>
-      <div className="searchWrapper">
+      {/* <div className="searchWrapper">
         <div className="searchBarWrapper">
           <SearchIcon />
           <form>
@@ -29,7 +33,7 @@ function Header() {
         <NotificationsIcon />
         <TextsmsIcon />
         <FaceIcon />
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -1,16 +1,17 @@
 // import logo from './logo.svg';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import MainBoard from './components/MainBoard';
-// import Routing from './Routes/Routing';
+import MainRoute from './Routes/MainRoute';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header />
-      {/* <Routing /> */}
+      <MainRoute />
       <MainBoard />
-    </div>
+    </BrowserRouter>
   );
 }
 
